@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o html</title>
+
+
+
+    <style>
+        .conteudo{display: flex;
+        justify-content:space-aroun;}
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            Numero
+        </div>
+    </div>
+    <div>
+        <input class="entrada" type="text" placeholder="digite um numero">
+    </div>
+
+    <div class="saida"></div>
+    <div>
+        <button class="btn">cadastrar</button>
+    </div>
+
+    <script>
+
+        var titulo=document.querySelector(".saida");
+        titulo.innerHTML="lalala";
+        console.log(titulo);
+
+        var h1=document.querySelector(".tituloh1");
+        titulo.innerHTML="manipulei o h1";
+        console.log(h1);
+
+        var entradaDados=document.querySelector(".entrada");
+
+        
+
+
+        
+    </script>
+
+
+
+</body>
+
+</html>
